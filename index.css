@@ -1,3 +1,16 @@
+html,body {
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+body {
+	display:grid;
+	grid-template-columns:1fr 2fr;
+}
+header {
+	text-align:center;
+}
+
 #headshot {
 	border:12px double black;
 	border-radius:100%;
